@@ -1,31 +1,4 @@
-# 10-703 Homework 1 Programming
-
-## Setup
-
-You will need to install the openai gym and numpy in order to complete
-the assignment. This assignment should work in either python 2.7 or
-python 3.
-
-We have included a requirements.txt file to make the installation of
-dependencies easy. We recommend making a virtualenv for this
-homework. If you are not familiar with virtualenv you can read more
-about it here: https://virtualenv.pypa.io/en/stable/
-
-You can also install the
-the [`virtualenvwrapper`](https://virtualenv.pypa.io/en/stable/)
-package if you want a more convenient command line interface.
-
-To install the packages using pip and a virtualenv run the following
-commands:
-
-```
-virtualenv deeprl_hw1
-source deeprl_hw1/bin/activate
-pip install -U -r requirements.txt
-```
-
-The following command should now work: `python -c 'import gym'`.
-
+# Reinforcement Learning
 
 ## OpenAI Gym Environments
 ### Creating the environments
@@ -87,4 +60,7 @@ next state is not terminal.
 ##
 ### Running a random policy
 
-See example.py for an example of how to run a random policy on the domain.
+example.py has an example of how to run a random policy on the domain.
+
+#Value Iteration
+The optimal policies for the different environments is in the <environment>.py files.
